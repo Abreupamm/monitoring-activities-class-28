@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img id="icon" src="images/wishlist.png" />
+      <h1>Minha Lista de Tarefas</h1>
+      <input type="image" id="icon-seta" src="images/seta.png" />
+    </header>
+    <p>
+      Escoha uma categoria para adicionar a tarefa
+       <br><br>
+      Clique uma vez no item para selecioná-lo
+    </p>
+    <div id="box-create-task">
+        <input id="task-text" type="text" placeholder="Digite sua tarefa" />
+        <select id="task-type" type="">
+          <option value="pessoal" selected>Pessoal</option>
+          <option value="trabalho">Trabalho</option> 
+          <option value="desejo">Lista de desejos</option> 
+          <option value="compras">Compras</option> 
+        </select>
+        <button id="create-task">Criar Tarefa</button>
+    </div>
+    <div id="container-buttons">
+      <button class="buttons-remove" id="remove-selected">Apagar</button>
+      <button class="buttons-remove" id="remove-finishd">Remover Finalizados</button>
+      <button class="buttons-remove" id="remove-all">Apagar Tudo</button>
+    </div>
+      <ol id="task-list"></ol>
+      <script src="script.js"></script>
+  </body>
+</html>
