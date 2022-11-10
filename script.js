@@ -1,23 +1,5 @@
 const BUTTON_CREATE_TASK = document.getElementById('create-task');
 const TASKS_lIST_OL = document.getElementById('task-list');
-const BUTTON_REMOVE_SELECTED = document.getElementById('remove-selected');
-
-
-function selectTask (event) {
-  const element = event.target;
-  const isSelected = element.classList.contains('selected');
-  const listIsSelected = document.getElementsByClassName('selected');
-  if (listIsSelected.length > 0) {
-    for (let i = 0; i < listIsSelected.length; i += 1) {
-     listIsSelected[i].classList.remove('selected');
-    }
-  }
-  if (isSelected) {
-    element.classList.remove('selected');
-  } else {
-    element.classList.add('selected');
-  }
-}
 
 function createIcon(type) {
   const img = document.createElement('img');
@@ -43,32 +25,27 @@ function createIcon(type) {
   return img;
 }
 
-function createTask () {
-  const inputTexTask = document.getElementById('task-text');
+function createTask() {
+  const inputTextTask = document.getElementById('task-text');
+  const elementTaskType = document.getElementById('task-type');
+
+  const option = elementTaskType.options[elementTaskType.selectedIndex].value;
   const elementLi = document.createElement('li');
   const elementCheckbox = document.createElement('input');
-  const elementTaskType = document.getElementById('task-type');
   const div = document.createElement('div');
-  const option = elementTaskType.options[elementTaskType.selectedIndex].value
-  if (inputTexTask.value === '') {
-    alert('É necessário criar uma tarefa')
-  } else {
-    elementLi.innerText = inputTexTask.value
-    elementLi.classList = 'list'
-    elementCheckbox.classList = 'checkbox'
-    elementCheckbox.type = 'checkbox'
-    div.classList = 'div-icon-talk'
+  elementLi.innerText = inputTextTask.value;
+  elementLi.classList = 'list';
+  elementCheckbox.type = 'checkbox'
+  elementCheckbox.classList = 'checkbox';
+  div.classList = 'div-icon-talk';
 
-
-    TASKS_lIST_OL.appendChild(elementLi);
-    div.appendChild(createIcon(option))
-    div.appendChild(elementCheckbox);
-    elementLi.appendChild(div)
-    inputTexTask.value = ''
-  }
-
+  div.appendChild(createIcon(option));
+  div.appendChild(elementCheckbox);
+  elementLi.appendChild(div);
+  TASKS_lIST_OL.appendChild(elementLi);
+  inputTextTask.value = null;
 }
 
+
+
 BUTTON_CREATE_TASK.addEventListener('click', createTask);
-BUTTON_REMOVE_SELECTED.addEventListener('click', removeSelected);
-TASKS_lIST_OL.addEventListener('click', selectTask);
