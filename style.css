@@ -106,15 +106,15 @@ button, input, #task-type{
 }
 
 
-/* .selected {
+.selected {
   background-color: rgba(110, 83, 139, 0.747);
   width: 60%;
   border-radius: 5px;
-} */
+}
 
-/* .completed {
+.completed {
   text-decoration: line-through solid rgb(255, 255, 255);
-} */
+}
 
 .type-icon {
   width: 30px;
