@@ -1,0 +1,143 @@
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(34, 5, 79);
+  background: linear-gradient(
+    180deg,
+    rgba(34, 5, 79, 1) 19%,
+    rgba(40, 5, 75, 1) 36%,
+    rgba(46, 8, 92, 1) 61%,
+    rgba(60, 12, 107, 1) 83%,
+    rgba(67, 7, 128, 1) 100%
+  );
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: rgba(0, 0, 0, 0.667);
+  width: 100%;
+  height: 100px;
+}
+
+p,
+h1,
+#box-create-task {
+  text-align: center;
+  color: aliceblue;
+}
+
+header h1 {
+  font-size: 50px;
+}
+
+p,
+li {
+  font-size: 30px;
+}
+
+#icon-seta {
+  width: 50px;
+  margin: 50px;
+}
+
+
+#icon {
+  width: 90px;
+  margin: 40px;
+}
+
+
+#task-text {
+  width: 400px;
+  height: 25px;
+  font-size: 20px;
+  padding: 5px 15px;
+}
+
+#task-type {
+  width: 150px;
+  height: 30px;
+  font-size: 18px;
+  padding: 5px 15px;
+  margin-left: 10px;
+}
+
+button, input, #task-type{
+  border-radius: 10px;
+}
+
+#container-buttons {
+  text-align: center;
+   margin-top: 15px;
+ }
+
+#create-task {
+  width: 130px;
+  height: 40px;
+  background-color: aquamarine;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.buttons-remove {
+  width: 180px;
+  height: 40px;
+  margin-right: 30px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.buttons-remove:hover {
+  width: 185px;
+}
+
+#remove-selected, #remove-all {
+  background-color: brown;
+  color: white;
+}
+
+
+.selected {
+  background-color: rgba(110, 83, 139, 0.747);
+  width: 60%;
+  border-radius: 5px;
+}
+
+.completed {
+  text-decoration: line-through solid rgb(255, 255, 255);
+}
+
+.type-icon {
+  width: 30px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 15px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  margin: 25px auto;
+}
+
+.div-icon-talk {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  /* border: solid red 1px; */
+}
+
+.checkbox {
+  width: 25px;
+  margin-left: 15px;
+}
