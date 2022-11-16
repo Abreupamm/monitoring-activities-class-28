@@ -12,7 +12,68 @@
   <main>
     <form>
       <h1>Formulário de Feedbacks</h1>
+      <label class="email"> E-mail
+        <input type="text" name="" id="email" placeholder="Seu e-mail" />
+      </label>
 
+      <div class="name">
+        <label for="name"> Nome completo </label>
+        <input type="text" name="" id="name" placeholder="Seu nome" />
+      </div>
+
+      <select id="turma">
+        <option  value="">Escolha sua turma</option>
+        <option  value="28a">Turma28-A</option>
+        <option  value="28b">Turma28-B</option>
+      </select>
+
+      <div>
+        Qual foi o tipo de monitoria?
+        <label for="individual">Monitoria individual</label>
+        <input type="radio" id="individual" value="individual">
+        <label for="grupo">Monitoria em grupo</label>
+        <input type="radio" id="grupo" value="grupo">
+      </div>
+
+      <select id="summer">
+        <option  value="">Escolher</option>
+        <option  value="Pablo">Pablo Souza</option>
+        <option  value="Pamela">Pamela Abreu</option>
+      </select>
+
+
+      <!-- podemos fazer no javascrip -->
+
+      <!-- <div>
+        De 0 a 10, o quanto você ficou satisfeita(o) com essa monitoria?
+        <label for="1">1</label>
+        <label for="2">2</label>
+        <label for="3">3</label>
+        <label for="4">4</label>
+        <label for="5">5</label>
+        <label for="6">6</label>
+        <label for="7">7</label>
+        <label for="8">8</label>
+        <label for="9">9</label>
+        <label for="10">10</label>
+        <input type="radio" id="1" value="1">
+        <input type="radio" id="1" value="1">
+        <input type="radio" id="1" value="1">
+        <input type="radio" id="1" value="1">
+        <input type="radio" id="1" value="1">
+        <input type="radio" id="1" value="1">
+        <input type="radio" id="1" value="1">
+        <input type="radio" id="1" value="1">
+        <input type="radio" id="1" value="1">
+        <input type="radio" id="1" value="1">
+      </div> -->
+
+      <label> Justifique sua nota (em relação à resposta anterior)
+        <input type="text" id="justific" placeholder="Seu resposta" />
+      </label>
+      
+      <label class="textarea" for="">Sugestões?</label>
+      <textarea name="" id="" cols="50" rows="10" maxlength="500"></textarea>
     </form>
   </main>
 
