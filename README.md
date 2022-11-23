@@ -23,7 +23,7 @@ A função devera receber dois parâmetros e calcular a área de um triângulo.
 ## 4 - Implemente a função anterior
 
 ## 5 - Crie os casos de testes para a seguinte função:
-A função receberá um array com o nome de tecnológias que já aprendemoe e iremos aprender. Essa função também receberá um segundo paramêtro que é o seu nome.
+A função receberá um array com o nome de tecnologias que já aprendemos e iremos aprender. Essa função também receberá um segundo parâmetro que é o seu nome.
 Para cada tecnologia no array, crie um objeto tal como:
 
     {

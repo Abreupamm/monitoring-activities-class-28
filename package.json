@@ -4,7 +4,7 @@
   "description": "## Objetivo",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage --verbose",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx"
   },
   "jest": {

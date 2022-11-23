@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1669218862299" clover="3.2.0">
+  <project timestamp="1669218862299" name="All files">
+    <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="8" coveredelements="8" complexity="0" loc="8" ncloc="8" packages="1" files="2" classes="2"/>
+    <file name="generateNumber.js" path="/home/pablo/Área de Trabalho/monitoring-activities-class-28/tests/mocks/generateNumber.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+    </file>
+    <file name="techList.js" path="/home/pablo/Área de Trabalho/monitoring-activities-class-28/tests/mocks/techList.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="50" count="1" type="stmt"/>
+      <line num="52" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
