@@ -1,0 +1,33 @@
+{
+  "name": "monitoring-activities-class-28",
+  "version": "1.0.0",
+  "description": "## Objetivo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx"
+  },
+  "jest": {
+    "rootDir": "./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abreupamm/monitoring-activities-class-28.git"
+  },
+  "keywords": [
+    "javascript",
+    "tests",
+    "assert",
+    "jest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abreupamm/monitoring-activities-class-28/issues"
+  },
+  "homepage": "https://github.com/Abreupamm/monitoring-activities-class-28#readme",
+  "devDependencies": {
+    "eslint-config-trybe-fundamentals": "1.1.1",
+    "jest": "24.9.0"
+  }
+}
