@@ -7,7 +7,7 @@ Se nenhum argumento for passado, retorna um objeto cujo o nome de cada espécie 
 Com o argumento ``` { specie: 'penguins' } ```, retorna um número, a quantidade de pinguins no zoológico;
 Com o argumento ``` { specie: 'giraffes', sex: 'female' } ```, retorna um número, a quantidade de girafas do sexo feminino.
 
-### Crie uma função que busque os aninais mais jovens do zoológico
+### Crie uma função que busque os animais mais jovens do zoológico
 
 ```javascript
 {
