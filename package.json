@@ -1,0 +1,17 @@
+{
+  "name": "menu-my-burguer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage test/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-trybe-fundamentals": "^1.1.0",
+    "jest": "^25.2.3"
+  }
+}
