@@ -1,0 +1,23 @@
+{
+  "name": "monitoring-activities-class-28",
+  "version": "1.0.0",
+  "description": "Este repositório foi criado para armazenar os códigos utilizados nas monitorias que aplico para a Turma 28 da Trybe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abreupamm/monitoring-activities-class-28.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abreupamm/monitoring-activities-class-28/issues"
+  },
+  "homepage": "https://github.com/Abreupamm/monitoring-activities-class-28#readme",
+  "dependencies": {
+    "lint": "^0.8.19"
+  }
+}
